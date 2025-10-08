@@ -28,7 +28,7 @@ function Home() {
       <div className='homepage'>
         <div className='home'>
           <div className="landingimage" >
-            <img src="public\landing.svg" ></img>
+            <img src="./public/landing.svg" ></img>
           </div>
           <div>
             <h1 className='title'>
