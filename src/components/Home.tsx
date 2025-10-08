@@ -24,20 +24,37 @@ function Home() {
   const word = 'EVERYTHING';
 
   return (
-    <div className='homepage'>
-      <h1>
-        Invest in{' '}
-        <strong>
-          {word.split('').map((letter, index) => (
-            <span
-              key={index}
-              style={{ color: letterColors[index], transition: 'color 0.5s' }}
-            >
-              {letter}
-            </span>
-          ))}
-        </strong>
-      </h1>
+    <div>
+      <div className='homepage'>
+        <div className='home'>
+          <div className="landingimage" >
+            <img src="public\landing.svg" ></img>
+          </div>
+          <div>
+            <h1 className='title'>
+              Invest in&nbsp;{' '}
+              <strong>
+                {word.split('').map((letter, index) => (
+                  <span
+                    key={index}
+                    style={{ color: letterColors[index], transition: 'color 0.5s' }}
+                  >
+                    {letter}
+                  </span>
+                ))}
+              </strong>
+            </h1>
+          </div>
+          <div>
+            <p className='tagline'>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
+          </div>
+          <div className='signupbutton'>
+            <button>Sign up for free</button>
+          </div>
+        </div>
+        <div className='bottom'>
+        </div>
+      </div>
     </div>
   )
 }

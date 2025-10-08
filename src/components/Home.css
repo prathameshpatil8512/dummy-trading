@@ -1,0 +1,40 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.landingimage {
+    display: flex;
+}
+
+.title {
+    display: flex;
+}
+
+.tagline {
+    display: flex;
+}
+
+.signupbutton {
+    display: flex;
+}
+
+.signupbutton button{
+    color: white;
+    background-color: #1e88e5;
+}
+
+.signupbutton button:hover{
+    background-color: black;
+}
