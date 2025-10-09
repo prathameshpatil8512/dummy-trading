@@ -61,7 +61,7 @@ function Home() {
               <p>Customer-first always</p>
             </div>
             <div className='description'>
-              <p>That's why 1.6+ crore customers trust Zerodha with ~ ₹6<br/> lakh crores of equity investments, making us India’s<br/> largest broker; contributing to 15% of daily retail<br/> exchange volumes in India.</p>
+              <p>That's why 1.6+ crore customers trust Herodha with ~ ₹6<br/> lakh crores of equity investments, making us India’s<br/> largest broker; contributing to 15% of daily retail<br/> exchange volumes in India.</p>
             </div>
             <div className='headers'>
               <p>No spam or gimmicks</p>
@@ -70,7 +70,7 @@ function Home() {
               <p>No gimmicks, spam, "gamification", or annoying push<br/> notifications. High quality apps that you use at your<br/> pace, the way you like. Our philosophies.</p>
             </div>
             <div className='headers'>
-              <p>The Zerodha universe</p>
+              <p>The Herodha universe</p>
             </div>
             <div className='description'>
               <p>Not just an app, but a whole ecosystem. Our investments<br/> in 30+ fintech startups offer you tailored services<br/> specific to your needs.</p>
@@ -144,7 +144,7 @@ function Home() {
         </div>
         <div className='openaccount'>
           <div className='headers'>
-            <p>Open a Zerodha account</p>
+            <p>Open a Herodha account</p>
           </div>
           <div className='description'>
             <p>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.</p>

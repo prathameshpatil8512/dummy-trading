@@ -5,11 +5,11 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='firstcolumn'>
-            <div>
-                <p className='title'>ZERODHA</p>
+            <div className='title'>
+                <p className='herodhatitle'>Herodha</p>
             </div>
             <div>
-                <p>© 2010 - 2025, Zerodha Broking Ltd. <br/>All rights reserved.</p>
+                <p>© 2010 - 2025, Herodha Broking Ltd. <br/>All rights reserved.</p>
             </div>
             <hr></hr>
             <div className='socialmedia'>
@@ -101,10 +101,10 @@ function Footer() {
                             <a href=''>Careers</a>
                         </li>
                         <li>
-                            <a href=''>Zerodha Cares (CSR)</a>
+                            <a href=''>Herodha Cares (CSR)</a>
                         </li>
                         <li>
-                            <a href=''>Zerodha.tech</a>
+                            <a href=''>Herodha.tech</a>
                         </li>
                         <li>
                             <a href=''>Open source</a>
