@@ -1,0 +1,66 @@
+.footer {
+    background-color: rgb(210, 210, 210);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.firstcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #1e88e5;
+}
+
+.title:hover {
+  color: black;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navhead {
+    font-size: 26px;
+    padding-top: 10px;
+    color: black;
+}
+
+ul {
+  list-style: none; /* Remove bullets */
+  padding: 0;       /* Remove default left padding */
+  margin: 0;        /* Optional: remove default margin */
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+.listname {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul li a{
+    font-size: 16px;
+    color: black;
+}
+
+ul li a:hover{
+    color: #1e88e5;
+}
